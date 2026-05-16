@@ -1,9 +1,7 @@
 local params = {...}
 
-local verbose_suka = true
-
 local last_param
-for i, param in ipairs(params) do
+for _, param in ipairs(params) do
 	local param_name = param:match("^[-/]+(%C+)$") -- matches for common flag initializers, which are "/", "-" and "--" and captures flag name, if possible.
 
 	if param_name then
@@ -263,7 +261,7 @@ for _, file in ipairs(videos) do
 	end
 end
 
-if params["v"] or params["verbose"] or verbose_suka then
+if params["v"] or params["verbose"] then
 	print("\nPattern statistics:")
 	local i = 1
 	for pattern, files in pairs(pattern_stats) do
