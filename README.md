@@ -30,9 +30,9 @@ Game loading time is generally an important factor only for remote hosters, as i
 
 # Utility flags
 
-| Flag             | Default | Description                              |
-| ---------------- | ------- | ---------------------------------------- |
-| `--input`        | `.`     | Path to directory with videos to re-encode. Should point to `/revisions/0/resources`|
-| `--output`       | `encoded` | Output folder, under which re-encoded files will be placed |
-| `--skip-checks`  | `false`  | Skip ffmpeg availability check                    |
-| `--verbose`    | `false`  | Display re-encoded files and commands used to encode them after the process finishes |
+| Flag                 | Default | Description                              |
+| -------------------- | ------- | ---------------------------------------- |
+| `--input`            | `.`     | Path to directory with videos to re-encode. Should point to `revisions/0/resources`|
+| `--output`           | `encoded` | Output folder, under which re-encoded files will be placed |
+| `--skip-checks`      | `false`  | Skip ffmpeg availability check                    |
+| `--verbose`          | `false`  | Display re-encoded files and commands used to encode them after the process finishes |
