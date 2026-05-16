@@ -21,7 +21,7 @@ Game loading time is generally an important factor only for remote hosters, as i
 
 # Instructions
 
-1. Download `optimize_videos.lua` and put it somewhere near the server repo (e.g. besides the lunar-tear repository folder)
+1. Download `optimize_videos.lua` and put it somewhere near the server repo (e.g. beside the lunar-tear repository folder)
 2. Run `lua optimize_videos.lua --input lunar-tear/server/assets/revisions/0/resources`
 3. Navigate through the program and wait until ffmpeg re-encode finishes.
 4. Folder "encoded" should appear in the same directory as the script. It contains now re-encoded films. Copy the contents of this folder into lunar-tear/server/assets/revisions/0/resources with replace.
