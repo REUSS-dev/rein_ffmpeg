@@ -9,7 +9,7 @@ Game loading time is generally an important factor only for remote hosters, as i
 # Prerequisites
 
 * Populated and functional `lunar-tear` server
-* `assetbundles/patch_listbin.py` script from [lunar-scripts](https://gitlab.com/walter-sparrow-group/lunar-scripts/-/blob/main/assetbundles/patch_listbin.py) repo
+* `assetbundles/patch_listbin.py` and `octo_pb2.py` scripts from [lunar-scripts](https://gitlab.com/walter-sparrow-group/lunar-scripts/-/blob/main/assetbundles/patch_listbin.py) repo
   * also python3
   * and `pip install protobuf`
 * Lua runtime (5.1+)
