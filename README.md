@@ -2,7 +2,7 @@
 
 This is a Lua helper script to re-encode your movie assets under assets/revision/0/resources using ffmpeg to save on loading times, bandwidth and disk space.
 
-Original videos are big and poorly-encoded, thus it plummets game load times if playing on a remote server.
+Original videos are big and poorly-encoded, thus it plummets game load speed if playing on a remote server.
 
 Game loading time is generally an important factor only for remote hosters, as if you host your server on your own machine and play on emulator/real device inside the same network, loading times will not significantly decrease for you after re-encoding.
 
